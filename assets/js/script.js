@@ -74,7 +74,8 @@ const professionalPrice = document.querySelector(".professional-price");
 const businessPrice = document.querySelector(".business-price");
 const planDuration = document.querySelectorAll(".plan-duration");
 
-plansSwitch.addEventListener("change", () => {
+if(plansSwitch){
+  plansSwitch.addEventListener("change", () => {
     if (plansSwitch.checked) {
         
         professionalPrice.innerText = "39,99 €";
@@ -90,3 +91,23 @@ plansSwitch.addEventListener("change", () => {
         })
     }
 })
+}
+
+const inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+  let parent = this.parentNode;
+  parent.classList.add("focus");
+}
+
+function blurFunc() {
+  let parent = this.parentNode;
+  if (this.value == "") {
+    parent.classList.remove("focus");
+  }
+}
+
+inputs.forEach((input) => {
+  input.addEventListener("focus", focusFunc);
+  input.addEventListener("blur", blurFunc);
+});

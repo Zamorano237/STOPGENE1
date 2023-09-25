@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STOPGENE</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/about.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@700;900&display=swap"
+    rel="stylesheet">
+    
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo"> <img src="./assets/images/logo.png" width="40" height="50" alt="app store" class="img">StopGene</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list container">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Accueil</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link active" data-nav-link>A propos</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+          <li>
+            <a href="#" class="btn btn-primary">Download</a>
+          </li>
+
+        </ul>
+      </nav>
+
+
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content" data-aos="fade-up-right" data-aos-anchor-placement="center-bottom">
+
+            <h1 class="h1 hero-title">Notre histoire</h1>
+
+            <p class="hero-text">
+                Le nombre croissant d'usagers de la route engendre des défis de plus en plus pressants en matière de cohabitation et de gestion des conflits liés à la circulation et au stationnement. Cette réalité a poussé notre équipe à développer StopGene, une application qui vise à améliorer la convivialité sur les routes. Notre objectif est simple : faciliter les échanges entre les usagers de la route, permettre la signalisation rapide des obstacles routiers et favoriser la résolution efficace de ces conflits. Notre communauté, baptisée les "stoggers", grandit chaque jour, renforçant ainsi notre capacité à résoudre ces problèmes de manière collaborative. Nous vous encourageons à nous rejoindre pour contribuer à une mobilité urbaine plus fluide et plus harmonieuse. N'hésitez pas à inviter vos amis à nous rejoindre et à faire partie du mouvement StopGene !
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#" class="btn btn-primary">Explore Now</a>
+
+              <a href="#" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider data-aos="fade-left" data-aos-anchor-placement="center-bottom">
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-2.png" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/hero-slide-3.png" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-4.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">Pourquoi nous choisir?</p>
+
+          <h2 class="h2 section-title">
+            Un service conçu pour répondre à vos besoins.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card" data-aos="zoom-in-down" data-aos-anchor-placement="center-bottom">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Support 24/7</h3>
+
+                <p class="card-text">
+                    Notre équipe dévouée est disponible 24/7 pour vous apporter une assistance inégalée, quelle que soit l'heure du jour ou de la nuit..
+                </p>
+
+             </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-aos="zoom-in-down" data-aos-anchor-placement="center-bottom">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Payement sécurisé</h3>
+
+                <p class="card-text">
+                    Bénéficiez de notre paiement sécurisé pour des transactions en toute confiance, sans souci de sécurité.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-aos="zoom-in-down" data-aos-anchor-placement="center-bottom">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Mises à jour</h3>
+                <p class="card-text">
+                    Nous effectuons des mises à jour régulières pour maintenir l'application à la pointe de la performance.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-aos="zoom-in-down" data-aos-anchor-placement="center-bottom">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">confidentialité</h3>
+
+                <p class="card-text">
+                    Vos données personnelles renseignées dans l'application sont traitées avec la plus stricte confidentialité et sécurité..
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner" data-aos-anchor-placement="center-bottom" data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content" data-aos-anchor-placement="center-bottom" data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine">
+
+            <p class="section-subtitle" id="about-label">Qui sommes nous ?</p>
+
+            <h2 class="h2 section-title">
+                Nous apportons des solutions pour simplifier la vie de nos utilisateurs
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Notre vision</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Chez StopGene, notre vision est de révolutionner la mobilité urbaine en favorisant la coopération entre les usagers de la route, afin de créer un environnement sûr, fluide et agréable pour tous.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Notre mission</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Notre mission chez StopGene est de mettre en relation les usagers de la route, de leur permettre de signaler les obstacles routiers et de résoudre rapidement les conflits, favorisant ainsi une mobilité urbaine harmonieuse.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Nos Valeurs</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Nos valeurs chez StopGene sont la coopération, la sécurité routière, la facilité d'utilisation de l'application, et la responsabilité envers notre communauté.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner" data-aos-anchor-placement="center-bottom" data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content" data-aos-anchor-placement="center-bottom" data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine">
+
+            <p class="section-subtitle" id="feautre-label"> Vous hésitez à télécharger l'application ? </p>
+
+            <h2 class="h2 section-title">
+                Voici pourquoi vous devriez télécharger StopGene.
+            </h2>
+
+            <p class="section-text">
+                Voici 4 excellentes raisons pour lesquelles vous devriez télécharger dès à présent notre application, et découvrir comment StopGene peut améliorer votre expérience de conduite.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Facilitez vos déplacements.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Contribuez à une meilleure circulation.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Gérez vos problèmes de stationnement.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Participez à une communauté d'entraide routière.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+
+            <li data-aos="zoom-in-down" data-aos-anchor-placement="center-bottom">
+              <p class="card-text">
+                <span class="h1"> 2574  </span>
+
+                <spna class="span"> Télechargements </spna>
+              </p>
+            </li>
+
+            <li data-aos="zoom-in-down" data-aos-anchor-placement="center-bottom">
+              <p class="card-text">
+                <span class="h1"> 1898 </span>
+
+                <spna class="span">Utilisateurs actifs</spna>
+              </p>
+            </li>
+
+            <li data-aos="zoom-in-down" data-aos-anchor-placement="center-bottom">
+              <p class="card-text">
+                <span class="h1">52847</span>
+
+                <spna class="span">Conflits resolus</spna>
+              </p>
+            </li>
+
+            <li data-aos="zoom-in-down" data-aos-anchor-placement="center-bottom">
+              <p class="card-text">
+                <span class="h1">1478</span>
+
+                <spna class="span">Utilisateurs satisfait</spna>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <footer class="footer">
+
+    <div class="section footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">STopGene</a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-google"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+
+          <li>
+            <a href="#" class="footer-link">Pricing Plan</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contactez-nous</p>
+          </li>
+
+
+          <li class="footer-item">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:contact@stopgene.com" class="item-link">contact@stopgene.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
+
+            <address class="item-link address">
+              Paris / Massy Vilaine
+            </address>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 All Rights Reserved by <a href="#" class="copyright-link"> Christian KOUOH</a>.
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/about.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
