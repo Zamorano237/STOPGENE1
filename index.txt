@@ -1,4 +1,4 @@
-VAST - Make an Impression & Drive More Downloads With VAST
+VAST - Make an Impression & Drive More Téléchargers With VAST
 
 
 
@@ -25,14 +25,14 @@ aria-label = toggle manu
 
 Best Mobile App 12 day free
 
-Make an Impression & Drive More Downloads With VAST
+Make an Impression & Drive More Téléchargers With VAST
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniamquis nostrud
 
-aria-label = Download from app store
+aria-label = Télécharger from app store
 alt = app store
 
-aria-label = Download from play store
+aria-label = Télécharger from play store
 alt = play store
 
 alt = hero banner
@@ -104,16 +104,16 @@ alt = about banner
 
 alt = app banner
 
-Download Our App
+Télécharger Our App
 
 Get The App For Free And Start Now
 
 Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luc tus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet con Lorem ipsum dolor
 
-aria-label = Download from app store
+aria-label = Télécharger from app store
 alt = app store
 
-aria-label = Download from play store
+aria-label = Télécharger from play store
 alt = play store
 
 
@@ -168,7 +168,7 @@ Useful Links
 
 Contact Us
 Privacy Policy
-App Download
+App Télécharger
 How It Works
 Terms & Conditions
 
